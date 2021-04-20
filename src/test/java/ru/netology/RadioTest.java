@@ -85,7 +85,7 @@ public class RadioTest {
     public void setUpCurrentVolumeOverMax() {
         radio.setCurrentVolume(10);
         radio.setUpCurrentVolume();
-        assertEquals(10, radio.getMaxVolume());
+        assertEquals(10, radio.getCurrentVolume());
     }
 
     @Test
@@ -99,7 +99,7 @@ public class RadioTest {
     public void setDownСurrentVolumeUnderMin() {
         radio.setCurrentVolume(0);
         radio.setDownCurrentVolume();
-        assertEquals(0, radio.getMinVolume());
+        assertEquals(0, radio.getCurrentVolume());
     }
 
 }
