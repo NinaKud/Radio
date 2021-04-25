@@ -44,4 +44,8 @@ out/
 !gradle/wrapper/gradle-wrapper.jar
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
+<<<<<<< HEAD
 !**/src/test/**
+=======
+!**/src/test/**
+>>>>>>> 21bd3f07e181cafe29fd9edcbd4726ec55931d4c
